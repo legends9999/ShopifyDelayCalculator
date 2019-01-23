@@ -1,7 +1,4 @@
-# id 537332882541379596
 # permission 67584
-# https://discordapp.com/oauth2/authorize?client_id=XXXXXXXXXXXX&scope=bot&permissions=XXXXX
-
 # for example: !shopifydelay 50 10 will return 660ms.
 
 import discord
