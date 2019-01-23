@@ -8,4 +8,5 @@ Shopify delay calculator, that calculates an optimal delay so your proxies won't
 
 In the discord:
 use !shopifydelay "number of proxies" "number of tasks" for calculating optimal, unbannable delay.
+
 for example: !shopifydelay 50 10 will return 660ms.
