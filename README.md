@@ -3,7 +3,7 @@ Shopify delay calculator, that calculates an optimal delay so your proxies won't
 
 # How to use:
 1. add your token ID to token.txt
-2. install discord before running
+2. run "pip install discord.py" before running
 3. run
 
 In the discord:
