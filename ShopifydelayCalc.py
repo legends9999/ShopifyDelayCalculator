@@ -6,7 +6,7 @@ from discord.ext import commands
 
 client = commands.Bot(command_prefix = '!')
 
-token = open(token.txt,r)
+token = open('token.txt','r').read()
 
 @client.event
 async def on_ready():
