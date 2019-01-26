@@ -15,11 +15,15 @@ async def on_ready():
 
 @client.command()
 async def shopifydelay(*args):
-    lst = list(args)
-    proxynum = int(lst[0])
-    tasknum = int(lst[1])
-    # shopify will ban around 3200ms, so I am using 3300ms just to be safe.
-    delay = 3300/proxynum/tasknum *100
-    await client.say(f'Use at a delay around {delay} ms.')
+    try:
+        lst = list(args)
+        proxynum = int(lst[0])
+        tasknum = int(lst[1])
+        # shopify will ban around 3200ms, so I am using 3300ms just to be safe.
+        delay = 3300/proxynum/tasknum *100
+        print(delay)
+        await client.say(f'Use at a delay around {delay} ms.')
+    except:
+        await client.say(f'Wrong input, try again!')
 
 client.run(token)
