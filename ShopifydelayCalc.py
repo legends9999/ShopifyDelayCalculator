@@ -21,7 +21,6 @@ async def shopifydelay(*args):
         tasknum = int(lst[1])
         # shopify will ban around 3200ms, so I am using 3300ms just to be safe.
         delay = 3300/proxynum/tasknum *100
-        print(delay)
         await client.say(f'Use at a delay around {delay} ms.')
     except:
         await client.say(f'Wrong input, try again!')
