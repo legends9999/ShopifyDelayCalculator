@@ -1,5 +1,5 @@
 # ShopifyDelayCalculator
-Shopify delay calculator, that calculates an optimal delay so your proxies won't get banned for monitoring shopify websites.
+Shopify delay calculator, that calculates an optimal delay so your proxies won't get banned when monitoring shopify websites.
 
 # How to use:
 1. replace "TOKEN" in token.txt with your server token
